@@ -2,7 +2,7 @@ import json
 from aiokafka import AIOKafkaProducer
 
 KAFKA_BOOTSTRAP_SERVERS = "localhost:9092"
-TOPIC_NAME = "raw-logs"
+TOPIC_NAME = "threat-logs"
 
 producer = AIOKafkaProducer(
     bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS
